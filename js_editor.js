@@ -3,8 +3,6 @@
 привязанные координатно к редактируемым элементам.
  */
 
- function select_element(id){
- 	// id - редактируемый элемент
- 	let edel=document.getElementById(id);
-    alert(`Hellow ${id}`);
+ function js_editor_alert(text){
+ 	alert(`Hellow ${text}`);
  }
